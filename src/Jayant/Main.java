@@ -12,8 +12,21 @@ public class Main {
         SelectionSort selectionSort= new SelectionSort();
         System.out.println(Arrays.stream(num).max().getAsInt());
         selectionSort.sort(num);
-        printArray(arr);
+        System.out.println("Selection Sort:");
+        printArray(num);
         populateArray(num,arr);
+        printArray(num);
+        BubbleSort.sort(num);
+        System.out.println("Bubble Sort");
+        printArray(num);
+        populateArray(num,arr);
+        InsertionSort.sort(num);
+        System.out.println("Insertion Sort");
+        printArray(num);
+        populateArray(num,arr);
+        //MergeSort.sort(num);
+        System.out.println("Merge Sort");
+        printArray(num);
     }
     public static void printArray(int[] arr)
     {
