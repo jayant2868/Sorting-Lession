@@ -27,6 +27,10 @@ public class Main {
         MergeSort.sort(num);
         System.out.println("Merge Sort");
         printArray(num);
+        populateArray(num,arr);
+        System.out.println("Quick Sort");
+        QuickSort.sort(num);
+        printArray(num);
     }
     public static void printArray(int[] arr)
     {
