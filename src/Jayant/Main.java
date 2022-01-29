@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Insertion Sort");
         printArray(num);
         populateArray(num,arr);
-        //MergeSort.sort(num);
+        MergeSort.sort(num);
         System.out.println("Merge Sort");
         printArray(num);
     }
